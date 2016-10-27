@@ -7,10 +7,9 @@
     <script type="text/javascript">
         $(function () {
             $.ajax({
-                url: 'https://104.224.129.122/ajax.php',
-                dataType: 'jsonp',
+                url: 'http://120.27.162.151:81/test.php',
                 crossDomain: true,
-                type: 'GET',
+                type: 'POST',
                 jsonpCallback: "success_jsonpCallback",
                 success: function (json) {
                     alert('secuss');
