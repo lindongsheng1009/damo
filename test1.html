@@ -9,6 +9,7 @@
             $.ajax({
                 url: 'http://120.27.162.151:81/test.php',
                 dataType: 'jsonp',
+                crossDomain: true,
                 type: 'GET',
                 jsonpCallback: "success_jsonpCallback",
                 success: function (json) {
